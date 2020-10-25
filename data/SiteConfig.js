@@ -1,45 +1,55 @@
 const config = {
-  siteTitle: "Gatsby Material Starter", // Site title.
-  siteTitleShort: "GM Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
+  siteTitle: "New York Jets Gatsby", // Site title.
+  siteTitleShort: "NYJ Gatsby", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Gatsby New York Jets", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://vagr9k.github.io", // Domain of your website without pathPrefix.
-  pathPrefix: "/gatsby-material-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "/nyj-gatsby", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "A GatsbyJS for the New York Jets, built for practice.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssTitle: "Gatsby Material Starter RSS feed", // Title of the RSS feed
+  siteRssTitle: "New York Jets Gatsby RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
-  disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
-  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
-  dateFormat: "DD/MM/YYYY", // Date format for display.
-  userName: "Material User", // Username to display in the author segment.
-  userEmail: "MaterialUser@example.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Pole, Earth", // User location to display in the author segment.
+  disqusShortname: "https-vagr9k-github-io-nyj-gatsby", // Disqus shortname.
+  dateFromFormat: "MM-DD-YYYY", // Date format used in the frontmatter.
+  dateFormat: "MM/DD/YYYY", // Date format for display.
+  userName: "brunojoey", // Username to display in the author segment.
+  userEmail: "brunojoey12@gmail.com", // Email used for RSS feed's author segment
+  userTwitter: "brunojoey", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "Tennessee", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "I am Joey! A sad, sad New York Jets fan who is learning web development. I wanted to learn Gatsby in some form. So, here I am making a website about the New York Jets, who happen to cause me great pain.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
+      url: "https://github.com/brunojoey/jets-gatsby",
       iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/brunojoey",
       iconClassName: "fa fa-twitter",
     },
     {
+      label: "LinkedIn",
+      url: "https://linkedin.com/in/brunojoey",
+      iconClassName: "fa fa-linkedin"
+    },
+    {
+      label: "Facebook",
+      url: "https://facebook.com/brunojoey",
+      iconClassName: "fa fa-facebook"
+    },
+    {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:brunojoey12@gmail.com",
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2020. Joey Bruno. A Sad Jets Fan", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
