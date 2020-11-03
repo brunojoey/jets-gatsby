@@ -1,0 +1,27 @@
+// colors
+$color-primary: #125740; // Gotham Green
+$color-secondary: #000; // Black
+$color-tertiary: #fff; // White
+
+.header {
+  background-color: $color-primary;
+  position: absolute;
+  width: 96%;
+  padding: 2rem;
+
+  .header-name {
+    color: $color-tertiary;
+    float: left;
+  }
+
+  .header-links {
+    float: right;
+
+    .header-links-roster, .header-links-history, .header-links-allTime {
+      color: $color-tertiary;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 1em;
+    }
+  }
+}

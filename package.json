@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "jets-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A New York Jets site to practice Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "gatsby": "^2.24.91",
+    "gatsby-plugin-sass": "^2.4.0",
+    "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
@@ -23,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/brunojoey/jets-gatsby"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
