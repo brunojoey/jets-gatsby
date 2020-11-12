@@ -1,3 +1,8 @@
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/typography';
+
 @import 'components/header';
 
-@import 'abstracts/variables';
+@import 'layout/table';

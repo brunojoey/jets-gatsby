@@ -1,0 +1,26 @@
+.roster-table {
+  max-width: $grid-width;
+  background-color: $color-primary;// rgba($color-primary, 0.7);
+  margin: 0 auto;
+  padding: 0 4rem;
+
+  .row {
+    &:not(:last-child) {
+      margin-bottom: $gutter-vertical;
+    };
+  
+    @include clearfix;
+    
+    [class^="col-"] {  
+      &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+      }
+    }
+
+    .col-1-of-3 {
+      width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    }
+  }
+  
+}
+

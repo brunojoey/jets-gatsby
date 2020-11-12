@@ -1,0 +1,63 @@
+body {
+  font-family: "Lato", "Helvetica", sans-serif;
+  line-height: 1.5;
+}
+
+.roster-table {
+  color: #fff;
+}
+
+.header-name {
+  color: #fff;
+}
+
+.header-links-roster, .header-links-history, .header-links-allTime {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: #125740;
+  position: absolute;
+  width: 96%;
+  padding: 2rem;
+}
+
+.header .header-name {
+  float: left;
+}
+
+.header .header-links {
+  float: right;
+}
+
+.header .header-links .header-links-roster, .header .header-links .header-links-history, .header .header-links .header-links-allTime {
+  margin-right: 1em;
+}
+
+.roster-table {
+  max-width: 114rem;
+  background-color: #125740;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.roster-table .row:not(:last-child) {
+  margin-bottom: 9rem;
+}
+
+.roster-table .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.roster-table .row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.roster-table .row .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+/*# sourceMappingURL=main.css.map */

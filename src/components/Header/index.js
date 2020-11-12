@@ -2,7 +2,7 @@
 // Will include links to Team Roster, History Page, and All-Time Personal Team
 import React from 'react';
 import { Link } from 'gatsby';
-import './styles.scss';
+import '../../styles/main.scss';
 
 function Header() {
   return (
